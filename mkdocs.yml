@@ -9,3 +9,5 @@ nav:
   - GitHub Pages: gitPages.md
   - Docker: docker.md
   - Conclusiones: conclusiones.md
+  
+doc_dir: docs 
