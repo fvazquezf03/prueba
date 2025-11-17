@@ -10,4 +10,4 @@ nav:
   - Docker: docker.md
   - Conclusiones: conclusiones.md
   
-doc_dir: docs 
+docs_dir: docs 
