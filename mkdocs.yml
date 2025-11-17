@@ -3,14 +3,13 @@
 # -------------------------------------------------------------
 # CONFIGURACIÓN GENERAL DEL SITIO
 # -------------------------------------------------------------
-site_name: Documentación de Calculadora Python # Define el título que aparecerá en la barra de navegación y en la etiqueta <title> del navegador.
+site_name: Documentación de Calculadora Python
 
 # -------------------------------------------------------------
 # ESTRUCTURA DE NAVEGACIÓN (MENÚ)
 # -------------------------------------------------------------
 # Define la lista de enlaces y el orden de aparición en el menú de navegación principal.
-  # El nombre de la sección en el menú: nombre_archivo.md
-  nav:
+nav:
   - Inicio: index.md
   - Git: git.md
   - GitHub Actions: gitActions.md
@@ -18,25 +17,11 @@ site_name: Documentación de Calculadora Python # Define el título que aparecer
   - Docker: docker.md
   - Conclusiones: conclusiones.md
   # Se pueden añadir subsecciones anidando listas:
-  # - Referencia: 
-  #   - Funciones: referencia/funciones.md
-  #   - Clases: referencia/clases.md
+  # - Referencia:
+  #     - Funciones: referencia/funciones.md
+  #     - Clases: referencia/clases.md
 
 # -------------------------------------------------------------
 # DIRECTORIOS
 # -------------------------------------------------------------
-# Ruta de la carpeta que contiene todos los archivos .md (Markdown) de la documentación.
-# MkDocs buscará aquí los archivos listados en 'nav'.
 docs_dir: docs 
-# -------------------------------------------------------------
-# TEMA (Opcional, pero común)
-# -------------------------------------------------------------
-# theme: 
-#   name: 'material' # Si usas el popular tema Material for MkDocs.
-#   # highlightjs: true
-#   # code_fences: true
-
-
-
-  
-
